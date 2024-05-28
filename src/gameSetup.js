@@ -16,7 +16,7 @@ export class gameSetup {
 
     }
 
-    onLose(game) {
+    onLose(game){
         game.scene("lose", () => {
             add([
                 text("Game Over"),
